@@ -1,0 +1,119 @@
+.Intro h2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 5rem 0;
+}
+.Intro {
+  background: url(../Images/bgHero1.svg);
+  width: 100vw;
+  height: 60vh;
+}
+.AboutWrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+.About {
+  position: relative;
+  padding: 2rem 0;
+}
+.About p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(15, 15, 15, 0.74);
+  margin-top: 32px;
+}
+.About .circle:nth-child(1) {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background: rgba(129, 191, 232, 0.34);
+  border-radius: 50%;
+  top: 0;
+  left: -25%;
+  z-index: -1;
+}
+.About .circle:nth-child(2) {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  background: rgba(224, 242, 255, 0.34);
+  border-radius: 50%;
+  top: 30%;
+  left: -18%;
+  z-index: -1;
+}
+.About .circle:nth-child(3) {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: rgba(129, 191, 232, 0.34);
+  border-radius: 50%;
+  bottom: 10%;
+  right: -20%;
+  z-index: -1;
+}
+.youtube {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Mentors {
+  padding: 1rem 0;
+
+  background: rgba(224, 242, 255, 0.34);
+}
+.Mentors > div {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+}
+.Mentors > div h3 {
+  margin-top: 1rem;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: rgba(10, 10, 10, 0.86);
+}
+.Mentors > div p {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.38);
+}
+@media only screen and (max-width: 880px) {
+  .Intro h2 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 130.52%;
+  }
+  .Mentors > div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .Mentors img {
+    width: 300px;
+  }
+  .Mentors > div h3 {
+    font-size: 20px;
+  }
+  .Mentors > div p {
+    font-size: 14px;
+  }
+}

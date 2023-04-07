@@ -1,0 +1,100 @@
+img[alt="bgHero"] {
+  width: 100%;
+  top: 0;
+  position: absolute;
+  z-index: -44;
+}
+.Hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.buttons-div {
+  display: flex;
+  gap: 1rem;
+}
+.HeroContent {
+  width: 100%;
+}
+.Hero h2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  color: #0b0b0b;
+}
+.HeroVideo {
+  width: 100%;
+}
+.HeroVideo img {
+  width: 100%;
+  scale: 1.2;
+}
+.Hero p {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #8e8e8e;
+  margin-bottom: 1rem;
+}
+.HeroInfo {
+  display: flex;
+  align-content: center;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.HeroInfo span {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 66px;
+  color: #0a114d;
+}
+.HeroInfo p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: rgba(11, 11, 11, 0.61);
+}
+.HeroInfo > div {
+  text-align: center;
+}
+@media only screen and (max-width: 880px) {
+  .HeroVideo {
+    width: 100%;
+    overflow: hidden;
+  }
+  .Hero {
+    flex-direction: column;
+  }
+  .HeroContent {
+    margin-right: 1rem;
+    margin-right: 0;
+  }
+  .Hero h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+  .Hero p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2.25rem;
+  }
+  .btn-2 {
+    display: none;
+  }
+  .HeroInfo {
+    display: none;
+  }
+}

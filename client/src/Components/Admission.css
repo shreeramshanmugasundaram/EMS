@@ -1,0 +1,61 @@
+.AdmissionGrid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.AdmissionGrid div {
+  padding: 1.5rem;
+  text-align: center;
+  background: rgba(129, 191, 232, 0.34);
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.17);
+  border-radius: 7px;
+}
+.AdmissionGrid div h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 66px;
+  color: rgba(11, 11, 11, 0.85);
+}
+.AdmissionGrid div span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: rgba(11, 11, 11, 0.5);
+}
+.AdmissionGrid div p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(11, 11, 11, 0.73);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 880px) {
+  .AdmissionGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .AdmissionGrid div {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  .AdmissionGrid div h3 {
+    font-size: 20px;
+    background: rgba(19, 28, 99, 0.91);
+    border-radius: 0px 0px 12px 12px;
+    line-height: 36px;
+    padding: 0.2rem 0;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  .AdmissionGrid div span {
+    font-size: 16px;
+  }
+}

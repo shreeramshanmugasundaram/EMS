@@ -1,0 +1,94 @@
+img[alt="EMS-Library"] {
+  width: 100px;
+}
+.Nav_logo a {
+  text-decoration: none;
+  font-family: var(--ft-roboto);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.NavWrapper {
+  position: sticky;
+  top: 0;
+  background: var(--clr-sec);
+  z-index: 99;
+}
+.Nav {
+  margin-top: 0;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.Nav li,
+.Nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: var(--ft-inter);
+  color: rgba(255, 255, 255, 0.75);
+}
+.Nav li {
+  margin-left: 3rem;
+}
+img[alt="Hamburger"] {
+  display: none;
+  z-index: 999;
+}
+.NavLogo {
+  display: none;
+}
+@media only screen and (max-width: 880px) {
+  .NavBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(6, 103, 171, 0.06);
+    transition: all 0.5s ease-in-out 0s;
+    transform: translate(-100%, 0);
+  }
+  .NavLogo {
+    display: block;
+    margin: 4rem 0 1rem 1rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+  }
+  .Nav ul {
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    top: 0%;
+    left: 0;
+    background: var(--clr-grad);
+    display: flex;
+    flex-direction: column;
+  }
+  .Nav li {
+    margin: 0.5rem 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  img[alt="Hamburger"] {
+    display: block;
+    height: 24px;
+    width: 31.5px;
+  }
+  .Nav {
+    max-width: 100%;
+  }
+}

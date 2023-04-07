@@ -1,0 +1,10 @@
+.Testimonial {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Testimonial iframe {
+  width: 90%;
+  height: 50vh;
+  margin: 2rem auto;
+}
