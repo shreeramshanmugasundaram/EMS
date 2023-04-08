@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
+import { contact } from "./controllers/contact.js";
 import path from "path";
 import getStudents from "./controllers/getStudents.js";
 
@@ -16,6 +17,7 @@ const PORT = process.env.PORT || 5000;
 const DB = process.env.DB;
 
 app.post("/students", getStudents);
+app.post("/contact", contact);
 
 mongoose
   .connect(DB)
