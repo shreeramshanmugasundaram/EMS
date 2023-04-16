@@ -32,10 +32,10 @@ const Nav = () => {
         <div className="NavBg" id="NavId" onClick={handleMenu}>
           <ul>
             <div className="NavLogo">EMS Libaray</div>
-            <li onClick={() => navigate("/coureses")}>Courses</li>
+            <li onClick={() => navigate("/courses/Pre-Nurture")}>Courses</li>
             <li onClick={() => navigate("/results")}>Result</li>
             <li onClick={() => navigate("/aboutus")}>About Us</li>
-            <li onClick={() => navigate("/contactus")}>Contact Us</li>
+            <li onClick={() => navigate("/contactus")}>Contact</li>
             <li>
               <a href="https://emslibrary.com">EMS Library</a>
             </li>

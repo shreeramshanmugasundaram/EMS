@@ -1,0 +1,155 @@
+.coursesList button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(11, 11, 11, 0.94);
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  border: none;
+  padding: 9px 15px;
+  margin-right: 1rem;
+}
+.coursesList {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.coursesDetail {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.coursesDetail h2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 66px;
+  color: #0b0b0b;
+}
+.coursesDetail > div > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(11, 11, 11, 0.7);
+  margin: 1rem 0;
+}
+.courseCard {
+  padding: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+.coursesDetail ul {
+  margin-left: 1rem;
+}
+.courseCard li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(11, 11, 11, 0.73);
+  margin: 10px;
+}
+.courseCard li > ul {
+  font-size: 0.8rem;
+  margin: 5px;
+}
+.courseCard li span,
+.courseNote span {
+  color: #0b0b0b;
+  font-weight: 600;
+}
+.courseNote {
+  background: rgba(129, 191, 232, 0.34);
+  border-radius: 5px;
+  padding: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 141.52%;
+  color: rgba(11, 11, 11, 0.94);
+}
+.courseNote p {
+  margin: 1rem 0;
+}
+.whyjoinus {
+  margin-top: 4rem;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 141.52%;
+  color: rgba(29, 29, 29, 0.72);
+}
+.whyjoinus li {
+  margin-bottom: 1rem;
+}
+.mobbtn {
+  display: none;
+}
+@media only screen and (max-width: 880px) {
+  .desktopbtn {
+    display: none;
+  }
+  .mobbtn {
+    display: block;
+  }
+  .coursesList {
+    margin: 0rem 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+  .coursesList button {
+    font-size: 12px;
+    padding: 6px 8px;
+    margin-right: 0;
+  }
+  .coursesDetail {
+    flex-direction: column;
+  }
+  .coursesDetail h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 141.02%;
+    letter-spacing: 0.03em;
+    color: #0b0b0b;
+  }
+  .coursesDetail > div > p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .coursesDetail img {
+    width: 100%;
+  }
+  .courseCard li {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.6391px;
+    line-height: 18px;
+    color: rgba(11, 11, 11, 0.94);
+  }
+  .whyjoinus {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+  }
+  .whyjoinus img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .whyjoinus li {
+    margin-left: 1rem;
+  }
+}

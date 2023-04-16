@@ -47,7 +47,7 @@
   left: 15%;
 }
 .JoinCardWrapper :nth-child(3) {
-  top: 65%;
+  top: 70%;
   left: 22%;
 }
 
@@ -61,7 +61,7 @@
   right: 15%;
 }
 .JoinCardWrapper :nth-child(6) {
-  top: 65%;
+  top: 70%;
   right: 22%;
 }
 @media only screen and (max-width: 880px) {
@@ -86,4 +86,36 @@
   .JoinCardWrapper {
     text-align: center;
   }
+}
+@media only screen and (min-width: 880px) and (max-width: 1135px) {
+  .JoinCardWrapper :nth-child(1) {
+    top: 5%;
+    left: 18%;
+  }
+
+  .JoinCardWrapper :nth-child(2) {
+    top: 35%;
+    left: 8%;
+  }
+  .JoinCardWrapper :nth-child(3) {
+    top: 65%;
+    left: 18%;
+  }
+
+  .JoinCardWrapper :nth-child(4) {
+    top: 5%;
+    right: 18%;
+  }
+  .JoinCardWrapper :nth-child(5) {
+    top: 35%;
+    right: 8%;
+  }
+  .JoinCardWrapper :nth-child(6) {
+    top: 65%;
+    right: 18%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1135px) {
 }

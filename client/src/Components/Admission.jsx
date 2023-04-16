@@ -3,11 +3,15 @@ import "./Admission.css";
 
 const data = [
   { title: "Pre-Nurture", std: "5-7th", boards: "CBSE, ICSE, Raj Board" },
+  { title: "Nurture", std: "8-10th", boards: "CBSE, ICSE, Raj Board" },
+  { title: "Smart Mind", std: "Science", boards: "CBSE, ICSE, Raj Board" },
   { title: "Pre-Nurture", std: "Commerce", boards: "CBSE, ICSE, Raj Board" },
-  { title: "Pre-Nurture", std: "5-7th", boards: "CBSE, ICSE, Raj Board" },
-  { title: "Pre-Nurture", std: "5-7th", boards: "CBSE, ICSE, Raj Board" },
-  { title: "Pre-Nurture", std: "5-7th", boards: "CBSE, ICSE, Raj Board" },
-  { title: "Pre-Nurture", std: "5-7th", boards: "CBSE, ICSE, Raj Board" },
+  {
+    title: "Pre-Nurture",
+    std: "NEET XI & XII",
+    boards: "CBSE, ICSE, Raj Board",
+  },
+  { title: "Pre-Nurture", std: "CUET", boards: "CBSE, ICSE, Raj Board" },
 ];
 
 const Admission = () => {

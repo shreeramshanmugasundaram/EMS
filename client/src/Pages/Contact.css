@@ -15,29 +15,30 @@
   font-family: "Secular One";
   font-style: normal;
   font-weight: 400;
-  font-size: 54.1166px;
-  line-height: 79px;
+  font-size: 2.5rem;
+  line-height: 59px;
   /* identical to box height */
 
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   color: #0a114d;
 }
 .ContactCard p {
+  /* display: none; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20.2937px;
+  font-size: 18px;
   line-height: 25px;
   color: rgba(5, 5, 5, 0.48);
-  margin-bottom: 22px;
+  margin-bottom: 2rem;
 }
 .ContactCard input,
 .ContactCard textarea {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20.2937px;
+  font-size: 16px;
   line-height: 25px;
   color: rgba(5, 5, 5, 0.3);
   padding: 12px 18px;
@@ -46,7 +47,7 @@
   background: rgba(189, 189, 189, 0.16);
   border-radius: 4.22786px;
   border: none;
-  margin: 0.5rem;
+  margin: 1rem 0;
 }
 .ContactDetails {
   display: flex;
@@ -67,4 +68,63 @@
   color: rgba(58, 58, 58, 0.82);
   margin: 0 1rem;
   text-align: left;
+}
+@media only screen and (max-width: 880px) {
+  .ContactCard {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+    margin-top: 1rem;
+  }
+  .Contact {
+    position: relative;
+  }
+  .Contact > img {
+    display: none;
+  }
+  .ContactCard img[alt="contactus"] {
+    width: 100%;
+  }
+  .ContactCard h3 {
+    text-transform: capitalize;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(11, 11, 11, 0.82);
+    margin: 1rem;
+  }
+  .ContactCard p {
+    font-size: 16px;
+  }
+  .ContactDetails,
+  img[alt="contactus"] {
+    display: none;
+  }
+  .ContactCard input,
+  .ContactCard textarea {
+    font-size: 16px;
+  }
+  .Contact .circle1 {
+    width: 60px;
+    height: 60px;
+    background: rgba(129, 191, 232, 0.34);
+    position: absolute;
+    top: 0;
+    transform: translate(-30%, 0);
+    border-radius: 50%;
+    z-index: 5;
+  }
+  .Contact .circle2 {
+    width: 90px;
+    height: 90px;
+    background: rgba(224, 242, 255, 0.34);
+    position: absolute;
+    top: 2%;
+    transform: translate(-30%, 0);
+    border-radius: 50%;
+    z-index: -1;
+  }
 }

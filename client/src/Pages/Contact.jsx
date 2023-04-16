@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./Contact.css";
 import Footer from "../Components/Footer";
@@ -6,21 +6,45 @@ import bgHero from "../Images/bgHero.svg";
 import contactimg from "../Images/contact.svg";
 import location from "../Images/icons/map-marker.svg";
 import phone from "../Images/icons/phone.svg";
-import email from "../Images/icons/email.svg";
+import emailicon from "../Images/icons/email.svg";
+
+import { contact } from "../action/contact.js";
+
 const Contact = () => {
+  const [name, setName] = useState(null);
+  const [email, setEmail] = useState(null);
+  const [message, setMessage] = useState(null);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    contact({ name, email, message });
+  };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  });
+
   return (
     <div className="Contact">
       <img src={bgHero} alt="bgHero" />
+      <div className="circle1"></div>
+      <div className="circle2"></div>
       <div className="ContactCard center-div">
         <div>
           <h3>Contact Us</h3>
           <p>We are here for you! How can we help?</p>
-          <form action="http://localhost:5000/contact">
-            <input type="text" name="name" placeholder="Enter your Name" />
+          <form onSubmit={handleSubmit}>
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your Name"
+              onChange={(e) => setName(e.target.value)}
+            />
             <input
               type="text"
               name="email"
               placeholder="Enter your Email Address"
+              onChange={(e) => setEmail(e.target.value)}
             />
             <textarea
               name="message"
@@ -28,6 +52,7 @@ const Contact = () => {
               cols="30"
               rows="10"
               placeholder="Type your message here.."
+              onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             <button
               type="submit"
@@ -53,7 +78,7 @@ const Contact = () => {
           </div>
 
           <div className="ContactDetails">
-            <img src={email} alt="email_icon" />
+            <img src={emailicon} alt="email_icon" />
             <p>xyz@gmail.com</p>
           </div>
         </div>

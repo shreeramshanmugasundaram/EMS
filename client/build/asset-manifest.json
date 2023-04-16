@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d646e4d.css",
+    "main.js": "/static/js/main.a6c2e39b.js",
+    "static/media/contact.svg": "/static/media/contact.439b5dc307717a175cb52a96de709a52.svg",
+    "static/media/01.svg": "/static/media/01.2a3ee85c0363ed606c6ea793e57e0e32.svg",
+    "static/media/whyjoinus.svg": "/static/media/whyjoinus.19f51e5625af37e927ed3afece226591.svg",
+    "static/media/education.png": "/static/media/education.ed24c3c47e51ac780118.png",
+    "static/media/bgHero1.svg": "/static/media/bgHero1.f096473a7e9b376b04fc.svg",
+    "static/media/join.svg": "/static/media/join.8923854713675f4b8ca6bb94bde5c3c5.svg",
+    "static/media/money.svg": "/static/media/money.4f482e556c9be4d882de13182220478a.svg",
+    "static/media/globe.svg": "/static/media/globe.d3da818e62ddc6298e55cb9a39715025.svg",
+    "static/media/instagram.svg": "/static/media/instagram.a99a09f124884b8bc8f8a0387ecb81e6.svg",
+    "static/media/person.svg": "/static/media/person.2a59870ad13f2b992ef64b7ad6aeea04.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.6a7d3bd33b90a2ef083adce91926a73c.svg",
+    "static/media/play.svg": "/static/media/play.d1744c792d39dbe28ee0b38996e32090.svg",
+    "index.html": "/index.html",
+    "static/media/clock.svg": "/static/media/clock.86f7421f923fcd1cb9ce66f40159049d.svg",
+    "static/media/map-marker.svg": "/static/media/map-marker.7a2eb87fe2bfc5a25c205c7642009b1d.svg",
+    "static/media/phone.svg": "/static/media/phone.baf4cd1a69827e31f25b421f6312dec7.svg",
+    "static/media/notes.svg": "/static/media/notes.445160c28c5569a7d5f477e2f1308283.svg",
+    "static/media/facebook.svg": "/static/media/facebook.e01d2cca748312b650b0313d1c344688.svg",
+    "static/media/student.svg": "/static/media/student.fa00de6b2c761abf4e5185f48b1887be.svg",
+    "static/media/email.svg": "/static/media/email.1176463d3c42bba6cd8a43c2e9a99603.svg",
+    "static/media/bgHero.svg": "/static/media/bgHero.a038c2a5f07ee45d14e6b1492ddba0ec.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.b866a0a5a85f8019b2accd7bd6f419ce.svg",
+    "main.7d646e4d.css.map": "/static/css/main.7d646e4d.css.map",
+    "main.a6c2e39b.js.map": "/static/js/main.a6c2e39b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d646e4d.css",
+    "static/js/main.a6c2e39b.js"
+  ]
+}
