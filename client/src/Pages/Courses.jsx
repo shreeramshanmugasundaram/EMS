@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import "./Courses.css";
@@ -9,11 +9,11 @@ import Footer from "../Components/Footer";
 const data = [
   {
     text: "Pre-Nurture",
-    link: "/courses/Pre-Nuture",
+    link: "/courses/Pre-Nurture",
   },
   {
     text: "Nurture",
-    link: "/courses/Nuture",
+    link: "/courses/Nurture",
   },
   {
     text: "Science leaders",
@@ -34,6 +34,9 @@ const data = [
 ];
 const Courses = ({ course }) => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  });
   return (
     <div>
       <img src={bgHero} alt="bgHero" />

@@ -8,7 +8,7 @@ const data = [
   {
     title: "Program",
     list: [
-      { text: "Courses", link: "/courses" },
+      { text: "Courses", link: "/courses/Pre-Nurture" },
       { text: "EMS App", link: "" },
       { text: "EMS Library", link: "https://emslibrary.com" },
       { text: "Contact us", link: "/contactus" },

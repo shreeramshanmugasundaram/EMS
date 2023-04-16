@@ -24,7 +24,7 @@ function App() {
           element={<Courses course={preNurture} />}
         ></Route>
         <Route
-          path="/courses/Nuture"
+          path="/courses/Nurture"
           element={<Courses course={nurture} />}
         ></Route>
         <Route
