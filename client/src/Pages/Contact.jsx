@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./Contact.css";
 import Footer from "../Components/Footer";
 import bgHero from "../Images/bgHero.svg";
-import contactimg from "../Images/contact.svg";
+import contactimg from "../Images/contactus.svg";
 import location from "../Images/icons/map-marker.svg";
 import phone from "../Images/icons/phone.svg";
 import emailicon from "../Images/icons/email.svg";
