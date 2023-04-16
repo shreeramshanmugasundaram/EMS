@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7d646e4d.css",
-    "main.js": "/static/js/main.231e6a26.js",
-    "static/media/contactus.svg": "/static/media/contactus.439b5dc307717a175cb52a96de709a52.svg",
+    "main.js": "/static/js/main.7e9b5131.js",
     "static/media/01.svg": "/static/media/01.2a3ee85c0363ed606c6ea793e57e0e32.svg",
     "static/media/whyjoinus.svg": "/static/media/whyjoinus.19f51e5625af37e927ed3afece226591.svg",
     "static/media/education.png": "/static/media/education.ed24c3c47e51ac780118.png",
     "static/media/bgHero1.svg": "/static/media/bgHero1.f096473a7e9b376b04fc.svg",
     "static/media/join.svg": "/static/media/join.8923854713675f4b8ca6bb94bde5c3c5.svg",
+    "static/media/contactus.webp": "/static/media/contactus.59cd8e329c7c5f53e8f1.webp",
     "static/media/money.svg": "/static/media/money.4f482e556c9be4d882de13182220478a.svg",
     "static/media/globe.svg": "/static/media/globe.d3da818e62ddc6298e55cb9a39715025.svg",
     "static/media/instagram.svg": "/static/media/instagram.a99a09f124884b8bc8f8a0387ecb81e6.svg",
@@ -25,10 +25,10 @@
     "static/media/bgHero.svg": "/static/media/bgHero.a038c2a5f07ee45d14e6b1492ddba0ec.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.b866a0a5a85f8019b2accd7bd6f419ce.svg",
     "main.7d646e4d.css.map": "/static/css/main.7d646e4d.css.map",
-    "main.231e6a26.js.map": "/static/js/main.231e6a26.js.map"
+    "main.7e9b5131.js.map": "/static/js/main.7e9b5131.js.map"
   },
   "entrypoints": [
     "static/css/main.7d646e4d.css",
-    "static/js/main.231e6a26.js"
+    "static/js/main.7e9b5131.js"
   ]
 }
