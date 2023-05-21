@@ -68,13 +68,16 @@ const Contact = () => {
           <div className="ContactDetails">
             <img src={location} alt="location_icon" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+              <b>Head Office/ Senior Wing</b> - 82/121 Sector 8 Pratap Nagar
+              Sanaganer Jaipur 302033 <br />
+              <br />
+              <b>Junior Wing</b> - 81/202, Near Gopinath Hospital, Chetak Marg,
+              Pratap Nagar Jaipur 302033
             </p>
           </div>
           <div className="ContactDetails">
             <img src={phone} alt="phone_icon" />
-            <p>+91 9970116791</p>
+            <p>+91 9783204698</p>
           </div>
 
           <div className="ContactDetails">

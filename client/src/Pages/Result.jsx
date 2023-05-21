@@ -1,25 +1,20 @@
 import React, { useEffect, useState } from "react";
+import { Buffer } from "buffer";
 import "./Result.css";
 import Footer from "../Components/Footer";
-import { getStundents } from "../api";
+import { getResultStundents } from "../action/getResultStundents";
 import Loader from "../Components/Loader";
-
-const years = [2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016];
+import { getResultYears } from "../action/getResultYears";
 
 const Result = () => {
-  const [lookingResult, setLookingResult] = useState(2023);
+  const [years, setYears] = useState([]);
+  const [lookingResult, setLookingResult] = useState("2023");
   const [studentList, setStudentList] = useState([]);
 
-  const handleRequest = async () => {
-    try {
-      const result = await getStundents({ year: lookingResult });
-      setStudentList(result.data.list);
-    } catch (err) {}
-  };
-
   useEffect(() => {
+    getResultYears(setYears);
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    handleRequest();
+    getResultStundents({ year: lookingResult }, setStudentList);
   }, [lookingResult]);
 
   return (
@@ -52,10 +47,13 @@ const Result = () => {
       ) : (
         <div className="StudentResults center-div">
           {studentList.map((student, index) => {
+            const bufferImage = student?.imageBuffer.data;
+            const base64Image = Buffer.from(bufferImage).toString("base64");
+            const src = `data:image/jpeg;base64,${base64Image}`;
             return (
               <div key={index}>
-                <img src={student.img} alt={student.name} />
-                <p>{student.name}</p>
+                <img src={src} alt={student.fname} />
+                <p>{student.fname}</p>
                 <span>{student.marks} %</span>
               </div>
             );

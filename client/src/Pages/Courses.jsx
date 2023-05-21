@@ -25,11 +25,11 @@ const data = [
   },
   {
     text: "NEET XI & XII",
-    link: "/",
+    link: "/courses/neet",
   },
   {
     text: "CUET",
-    link: "/",
+    link: "/courses/cuet",
   },
 ];
 const Courses = ({ course }) => {
@@ -61,8 +61,9 @@ const Courses = ({ course }) => {
 
         <div className="coursesDetail">
           <div>
-            <h2>{course.title}</h2>
-            <p>{course.content}</p>
+            <h2>{course?.title}</h2>
+            <h3>{course?.des}</h3>
+            <p>{course?.content}</p>
             <button
               className="btn-1 desktopbtn"
               style={{ marginTop: "2rem" }}

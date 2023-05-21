@@ -12,6 +12,8 @@ footer {
   text-transform: capitalize;
   font-size: 20px;
   line-height: 23px;
+  width: 95%;
+  margin: auto;
 }
 
 footer h4 {

@@ -10,60 +10,36 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 300px;
+  height: 300px;
   transform: translate(-50%, -50%);
 }
 .JoinCard {
   position: absolute;
   z-index: 2;
-  width: 16rem;
+  width: 20rem;
   display: inline-block;
-  padding: 1.5rem 0;
+  padding: 1rem 0.5rem;
   background: rgba(255, 255, 255, 0.06);
   border-radius: 7.4321px;
   font-family: "Inter";
-  font-style: normal;
   text-align: center;
+  max-height: 180px;
+}
+.JoinCard img {
+  padding: 1rem;
 }
 .Join h4 {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1rem;
   color: #ffffff;
-  margin: 1rem 0;
 }
 .Join p {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.79);
 }
-.JoinCardWrapper :nth-child(1) {
-  top: 5%;
-  left: 22%;
-}
 
-.JoinCardWrapper :nth-child(2) {
-  top: 35%;
-  left: 15%;
-}
-.JoinCardWrapper :nth-child(3) {
-  top: 70%;
-  left: 22%;
-}
-
-.JoinCardWrapper :nth-child(4) {
-  top: 5%;
-  right: 22%;
-}
-
-.JoinCardWrapper :nth-child(5) {
-  top: 35%;
-  right: 15%;
-}
-.JoinCardWrapper :nth-child(6) {
-  top: 70%;
-  right: 22%;
-}
 @media only screen and (max-width: 880px) {
   .Join {
     height: 100%;
@@ -87,18 +63,19 @@
     text-align: center;
   }
 }
-@media only screen and (min-width: 880px) and (max-width: 1135px) {
+@media only screen and (min-width: 880px) {
   .JoinCardWrapper :nth-child(1) {
     top: 5%;
     left: 18%;
   }
 
   .JoinCardWrapper :nth-child(2) {
-    top: 35%;
+    top: 50%;
     left: 8%;
+    transform: translateY(-50%);
   }
   .JoinCardWrapper :nth-child(3) {
-    top: 65%;
+    bottom: 5%;
     left: 18%;
   }
 
@@ -107,11 +84,12 @@
     right: 18%;
   }
   .JoinCardWrapper :nth-child(5) {
-    top: 35%;
+    top: 50%;
     right: 8%;
+    transform: translateY(-50%);
   }
   .JoinCardWrapper :nth-child(6) {
-    top: 65%;
+    bottom: 5%;
     right: 18%;
   }
 }

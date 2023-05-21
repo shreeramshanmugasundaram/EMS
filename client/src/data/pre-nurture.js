@@ -1,5 +1,5 @@
 export const preNurture = {
-  title: "Pre-Nurture(pre-foundation courses for class VII,VIII) ",
+  title: "Pre-Nurture (Pre-foundation courses for class VII,VIII) ",
   content:
     "This Programme laid strong foundation & preparation for various competitive exams like IMO, ISO & also ensures excellence in school exams.",
   class: " VII, VIII",
@@ -33,6 +33,28 @@ export const commerce = {
   title: "Commerce Leaders (Foundation Course for Class XI and XII)",
   content:
     " This program extensively covers and Lay Strong Foundation for Accounts , Economics and Business Studies, teachers take great care to initiate the child with basic concepts of these three Subject.",
+  test: "This Programme lay strong foundation & preparation For Class XI and XII Commerce Students.",
+  class: " XI and XII Commerce",
+  eligiblity: "Class XI/XII Studying Student.",
+  medium: "English",
+  subject: "Accounts, Economics, BSt.",
+};
+
+export const neet = {
+  title: "NEET",
+  content:
+    "Do you want to work in the medical field or the dental field? Thus your passport to success is the EMS Academy NEET exam program! The goal of this extensive curriculum is to give students the knowledge and abilities they need to ace the NEET entrance exam and get accepted into a prestigious medical or dental college. The NEET program at EMS Academy is certain to produce results because of its qualified teachers and personalized instruction. This program thoroughly prepares students for the NEET test through concept-based learning and intense practice sessions. Why then wait? Take the first step towards your ideal profession by enrolling right away!",
+  test: "This Programme lay strong foundation & preparation For Class XI and XII Commerce Students.",
+  class: " XI and XII Commerce",
+  eligiblity: "Class XI/XII Studying Student.",
+  medium: "English",
+  subject: "Biology",
+};
+
+export const cuet = {
+  title: "CUET",
+  content:
+    "CUET examination program of EMS academy is for aspiring students. Our program is created to give students thorough and engaging study resources, competent and experienced instructors, and personalized help throughout the whole exam preparation process. The course is made to assist students in realizing their ambition of going to their dream college .It offers a comprehensive curriculum that covers all aspects of the CUET exam, including mathematics, physics, chemistry, English General Knowledge & Current Affairs ,General Mental Ability, Numerical Ability, Quantitative Reasoning, Logical and Analytical Reasoning and many more. Students who enrol in this program receive personalized instruction from experienced faculty members, who are dedicated to helping them succeed. This program not only prepares students for the CUET exam, but also equips them with the skills and knowledge necessary to excel in their future academic pursuits. The EMS Academy at CUET's CUET examination program is an excellent investment in any student's future.",
   test: "This Programme lay strong foundation & preparation For Class XI and XII Commerce Students.",
   class: " XI and XII Commerce",
   eligiblity: "Class XI/XII Studying Student.",

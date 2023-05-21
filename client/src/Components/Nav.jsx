@@ -24,14 +24,14 @@ const Nav = () => {
     <div className="NavWrapper">
       <div className="Nav center-div">
         <div className="Nav_logo">
-          <a href="/">
-            {/* <img src={""} alt="EMS-Library" /> */}
-            EMS Academy
-          </a>
+          <a href="/">EMS Academy</a>
         </div>
         <div className="NavBg" id="NavId" onClick={handleMenu}>
           <ul>
-            <div className="NavLogo">EMS Libaray</div>
+            <div className="NavLogo" onClick={() => navigate("/")}>
+              EMS Academy
+            </div>
+            <li onClick={() => navigate("/")}>Home</li>
             <li onClick={() => navigate("/courses/Pre-Nurture")}>Courses</li>
             <li onClick={() => navigate("/results")}>Result</li>
             <li onClick={() => navigate("/aboutus")}>About Us</li>

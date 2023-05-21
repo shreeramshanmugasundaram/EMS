@@ -15,23 +15,30 @@ const Hero = () => {
       <div className="Hero center-div">
         <div className="HeroContent">
           <h2 className="ft-h1-bold">
-            Transform Your Dreams, discover Your Strengths and Unleash Your
+            Transform Your Dreams, Discover Your Strengths and Unleash Your
             Inner Genius
           </h2>
           <p className="ft-h3">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+            Get the Best Coaching for Class 8th to 12th, NEET and CUET Exams at
+            Our Leading Institute in Jaipur. Join us today and experience the
+            power of our comprehensive coaching solutions - where knowledge
+            meets success!
           </p>
           <div className="buttons-div">
             <button className="btn-1" onClick={() => navigate("/contactus")}>
               Contact Us
             </button>
-            <button className="btn-2" onClick={() => navigate("/aboutus")}>
+            <button
+              className="btn-2"
+              onClick={() => {
+                navigate("/aboutus");
+              }}
+            >
               <img src={play} alt="" /> Know More
             </button>
           </div>
-          <p className="ft-h3">
-            Over 2K+ students have started their classes already
+          <p>
+            Over <b>2K+ students</b> have started their classes already
           </p>
         </div>
         <div className="HeroVideo">

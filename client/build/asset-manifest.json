@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1721debf.css",
-    "main.js": "/static/js/main.e428c745.js",
+    "main.css": "/static/css/main.4d10dcc4.css",
+    "main.js": "/static/js/main.6f129a26.js",
     "static/media/01.svg": "/static/media/01.2a3ee85c0363ed606c6ea793e57e0e32.svg",
     "static/media/whyjoinus.svg": "/static/media/whyjoinus.19f51e5625af37e927ed3afece226591.svg",
     "static/media/education.png": "/static/media/education.ed24c3c47e51ac780118.png",
@@ -22,13 +22,13 @@
     "static/media/facebook.svg": "/static/media/facebook.e01d2cca748312b650b0313d1c344688.svg",
     "static/media/student.svg": "/static/media/student.fa00de6b2c761abf4e5185f48b1887be.svg",
     "static/media/email.svg": "/static/media/email.1176463d3c42bba6cd8a43c2e9a99603.svg",
-    "static/media/bgHero.svg": "/static/media/bgHero.a038c2a5f07ee45d14e6b1492ddba0ec.svg",
+    "static/media/bgHero.svg": "/static/media/bgHero.a97b01284ffe19b37b7334b48a3035a8.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.b866a0a5a85f8019b2accd7bd6f419ce.svg",
-    "main.1721debf.css.map": "/static/css/main.1721debf.css.map",
-    "main.e428c745.js.map": "/static/js/main.e428c745.js.map"
+    "main.4d10dcc4.css.map": "/static/css/main.4d10dcc4.css.map",
+    "main.6f129a26.js.map": "/static/js/main.6f129a26.js.map"
   },
   "entrypoints": [
-    "static/css/main.1721debf.css",
-    "static/js/main.e428c745.js"
+    "static/css/main.4d10dcc4.css",
+    "static/js/main.6f129a26.js"
   ]
 }

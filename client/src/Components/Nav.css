@@ -7,7 +7,6 @@ img[alt="EMS-Library"] {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -19,7 +18,7 @@ img[alt="EMS-Library"] {
 }
 .Nav {
   margin-top: 0;
-  padding: 2rem 0;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +34,7 @@ img[alt="EMS-Library"] {
   font-size: 16px;
   font-family: var(--ft-inter);
   color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
 }
 .Nav li {
   margin-left: 3rem;
@@ -65,6 +65,8 @@ img[alt="Hamburger"] {
     line-height: 36px;
     color: #ffffff;
     border-bottom: 2px solid #fff;
+    font-family: var(--ft-roboto);
+    cursor: pointer;
   }
   .Nav ul {
     position: absolute;
@@ -82,6 +84,7 @@ img[alt="Hamburger"] {
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
+    cursor: pointer;
   }
   img[alt="Hamburger"] {
     display: block;

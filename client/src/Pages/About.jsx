@@ -6,12 +6,12 @@ import Footer from "../Components/Footer";
 
 const mentors = [
   {
-    img: "/images/mentor1.svg",
+    img: "/images/mentor2.webp",
     name: "Dr. Abhilasha Tharwan",
     des: "M.A. M.Phil, Phd-Geography",
   },
   {
-    img: "/images/mentor2.svg",
+    img: "/images/mentor1.webp",
     name: "Ankur Tharwan",
     des: "BBA, MBA, LLB",
   },
@@ -25,8 +25,35 @@ const About = () => {
             Transform Your Dreams, discover Your Strengths and Unleash Your
             Inner Genius
           </h2>
-          <button className="btn-1" onClick={() => "/contactus"}>
-            Download App
+          <button
+            className="btn-1"
+            onClick={() =>
+              window.location.assign(
+                "https://play.google.com/store/apps/details?id=co.classplus.ems"
+              )
+            }
+          >
+            Download Andriod App
+          </button>
+
+          <button
+            className="btn-1"
+            onClick={() =>
+              window.location.assign(
+                "https://apps.apple.com/in/app/myinstitute/id1472483563"
+              )
+            }
+          >
+            Download IOS App
+          </button>
+
+          <button
+            className="btn-1"
+            onClick={() =>
+              window.location.assign("https://web.classplusapp.com/login")
+            }
+          >
+            Portal
           </button>
         </div>
       </div>

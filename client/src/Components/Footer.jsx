@@ -26,7 +26,7 @@ const data = [
 const Footer = () => {
   return (
     <div className="Footer">
-      <footer className="center-div">
+      <footer>
         <div></div>
         {data.map((item, index) => {
           return (
@@ -49,22 +49,25 @@ const Footer = () => {
           <p>
             <span>Address :</span>
             <br />
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.
+            <b>Head Office/ Senior Wing</b> - 82/121 Sector 8 Pratap Nagar
+            Sanaganer Jaipur 302033 <br />
+            <br />
+            <b>Junior Wing</b> - 81/202, Near Gopinath Hospital, Chetak Marg,
+            Pratap Nagar Jaipur 302033
           </p>
 
           <p>
-            <span>Phone no. :</span>+ 91 9999999999
+            <span>Phone no. :</span>+ 91 9783204698
           </p>
           <div className="social">
-            <a href="https://instagram.com/">
+            <a href="https://instagram.com/ems_academy_india?igshid=YmMyMTA2M2Y=">
               <img src={Instagram} alt="instagram" />
             </a>
-            <a href="https://linkedin.com/">
-              <img src={Linkedin} alt="instagram" />
+            <a href="https://www.linkedin.com/company/emsacademy/">
+              <img src={Linkedin} alt="linkedin" />
             </a>
-            <a href="https://facebook.com/">
-              <img src={Facebook} alt="instagram" />
+            <a href="https://www.facebook.com/emsacademyjaipur?mibextid=LQQJ4d">
+              <img src={Facebook} alt="facebook" />
             </a>
           </div>
         </div>

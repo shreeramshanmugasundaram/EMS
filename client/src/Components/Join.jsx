@@ -12,12 +12,12 @@ const data = [
   {
     img: globe,
     title: "Multilingual Classes",
-    text: "A proven track record of helping students succeed in their studies.",
+    text: "They have a proven track record of assisting students in their academic success.",
   },
   {
     img: notes,
     title: "Syllabus Coverage",
-    text: "Comprehensive syllabus coverage ensuring child's readiness for next level.",
+    text: "Comprehensive syallbus coverage ensures a child's readiness for the next level",
   },
   {
     img: clock,
@@ -36,8 +36,8 @@ const data = [
   },
   {
     img: student,
-    title: "Multilingual Classes",
-    text: "A proven track record of helping students succeed in their studies.",
+    title: "Positive outcomes",
+    text: "many of our students have gone on to achieve academic success.",
   },
 ];
 const Join = () => {

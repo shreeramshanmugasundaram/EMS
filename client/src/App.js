@@ -8,7 +8,14 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Courses from "./Pages/Courses";
 
-import { preNurture, nurture, science, commerce } from "./data/pre-nurture";
+import {
+  preNurture,
+  nurture,
+  science,
+  commerce,
+  neet,
+  cuet,
+} from "./data/pre-nurture";
 
 function App() {
   return (
@@ -35,6 +42,8 @@ function App() {
           path="/courses/Commerce"
           element={<Courses course={commerce} />}
         ></Route>
+        <Route path="/courses/neet" element={<Courses course={neet} />}></Route>
+        <Route path="/courses/cuet" element={<Courses course={cuet} />}></Route>
       </Routes>
     </>
   );

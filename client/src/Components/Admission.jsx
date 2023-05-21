@@ -44,7 +44,7 @@ const data = [
 const Admission = () => {
   const navigate = useNavigate();
   return (
-    <div className="Admission center-div">
+    <div className="Admission">
       <h2 className="title-1">Admission Open</h2>
       <div className="AdmissionGrid">
         {data.map((data, index) => {
@@ -69,7 +69,11 @@ const Admission = () => {
           textAlign: "center",
         }}
       >
-        <button className="btn-1" style={{ padding: " 1rem 4rem" }}>
+        <button
+          className="btn-1"
+          style={{ padding: " 1rem 4rem" }}
+          onClick={() => navigate("/contactus")}
+        >
           Join Now
         </button>
       </div>

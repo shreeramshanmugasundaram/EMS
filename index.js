@@ -5,8 +5,11 @@ import mongoose from "mongoose";
 import cors from "cors";
 import { contact } from "./controllers/contact.js";
 import path from "path";
-import getStudents from "./controllers/getStudents.js";
+import getResultStudents from "./controllers/getResultStudents.js";
 import { fileURLToPath } from "url";
+import getMainPageStudents from "./controllers/mainPageStudents.js";
+import getResultYears from "./controllers/getResultYears.js";
+import getShotsLinks from "./controllers/getShotsLinks.js";
 
 const app = express();
 dotenv.config();
@@ -20,8 +23,11 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 const DB = process.env.DB;
 
-app.post("/students", getStudents);
+app.post("/getresutlstudents", getResultStudents);
+app.get("/getresultyears", getResultYears);
 app.post("/contact", contact);
+app.get("/getmainpagestudents", getMainPageStudents);
+app.get("/getshots", getShotsLinks);
 
 app.use(express.static(path.join(__dirname, "./client/build")));
 app.get("*", (req, res) => {
