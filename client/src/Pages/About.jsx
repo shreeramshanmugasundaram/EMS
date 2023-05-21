@@ -53,7 +53,7 @@ const About = () => {
               window.location.assign("https://web.classplusapp.com/login")
             }
           >
-            Portal
+            Desktop Portal
           </button>
         </div>
       </div>
@@ -100,7 +100,7 @@ const About = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/pqCVMRcj_bc?controls=0"
+          src="https://www.youtube.com/embed/GZyd5mVczdA"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
