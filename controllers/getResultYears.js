@@ -4,7 +4,7 @@ const getResultYears = async (req, res) => {
   try {
     const yearsnonsort = await resultPageImgSchema.distinct("year");
     const years = yearsnonsort.reverse();
-    console.log(years);
+
     if (!years) {
       return res.status(401).send("requested data not found");
     }

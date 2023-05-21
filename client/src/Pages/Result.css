@@ -16,6 +16,11 @@
   border: none;
   padding: 9px 15px;
 }
+
+.btnList button:hover {
+  background: #131c63;
+  color: white;
+}
 .StudentResults {
   margin-top: 4rem;
   display: grid;

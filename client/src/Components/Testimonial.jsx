@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-// import star from "../images/icons/star.svg";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./Testimonial.css";
 import { getShots } from "../action/getShots";
 
 const settings = {
-  dots: true,
-  infinite: false,
+  infinite: true,
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 3,
-  initialSlide: 0,
+  initialSlide: 3,
   responsive: [
     {
       breakpoint: 1024,
@@ -19,7 +18,6 @@ const settings = {
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        dots: true,
       },
     },
     {
@@ -27,7 +25,7 @@ const settings = {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        initialSlide: 0,
+        initialSlide: 3,
       },
     },
     {
@@ -49,16 +47,21 @@ const Testimonial = () => {
     <div>
       <div className="Testimonial center-div">
         <h2 className="title-1">Testimonials </h2>
-        <div className="center-div">
+        <div>
           <Slider {...settings}>
             {data.map((item, index) => {
               return (
-                <div key={index}>
+                <div
+                  key={index}
+                  className="TestimonialCard"
+                  style={{ display: "flex" }}
+                >
                   <iframe
                     src={item.link}
-                    title="video1"
+                    title={item.link}
                     frameborder="0"
-                    allowfullscreen
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
                   ></iframe>
                 </div>
               );
