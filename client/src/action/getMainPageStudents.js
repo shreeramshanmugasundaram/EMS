@@ -7,9 +7,7 @@ export const getMainPageStudents = async (setData) => {
       .then((response) => {
         setData(response.data);
       })
-      .catch((error) => {
-        alert(error.response.data);
-      });
+      .catch((error) => {});
     return data;
   } catch (error) {
     console.log(error);

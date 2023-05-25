@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Nav.css";
 
+import logo from "../Images/logo.png";
 import Hamburger from "../Images/icons/hamburger.svg";
 import { useNavigate } from "react-router-dom";
 
@@ -24,7 +25,10 @@ const Nav = () => {
     <div className="NavWrapper">
       <div className="Nav center-div">
         <div className="Nav_logo">
-          <a href="/">EMS Academy</a>
+          <a href="/">
+            <img src={logo} alt="emsacademy" />
+            EMS Academy
+          </a>
         </div>
         <div className="NavBg" id="NavId" onClick={handleMenu}>
           <ul>

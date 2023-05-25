@@ -5,7 +5,14 @@ import Result from "../Components/Result";
 import Testimonial from "../Components/Testimonial";
 import Footer from "../Components/Footer";
 import Join from "../Components/Join";
+import Popup from "../Components/Popup";
+import { useState, useEffect } from "react";
 const Main = () => {
+  const [popup, setPopup] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setPopup(true), 5000);
+  }, []);
   return (
     <>
       <Hero />
@@ -33,6 +40,7 @@ const Main = () => {
       <Testimonial />
 
       <Footer />
+      {popup && <Popup setPopup={setPopup} />}
     </>
   );
 };

@@ -1,10 +1,13 @@
 img[alt="EMS-Library"] {
   width: 100px;
 }
+img[alt="emsacademy"] {
+  width: 35px;
+  margin-right: 1rem;
+}
 .Nav_logo a {
   text-decoration: none;
   font-family: var(--ft-roboto);
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;

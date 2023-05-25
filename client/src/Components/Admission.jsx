@@ -22,19 +22,19 @@ const data = [
     link: "/courses/Science",
   },
   {
-    title: "Pre-Nurture",
+    title: "Commerce leaders",
     std: "Commerce",
     boards: "CBSE, ICSE, Raj Board",
     link: "/courses/commerce",
   },
   {
-    title: "Pre-Nurture",
+    title: "NEET",
     std: "NEET XI & XII",
     boards: "CBSE, ICSE, Raj Board",
     link: "/courses/commerce",
   },
   {
-    title: "Pre-Nurture",
+    title: "CUET",
     std: "CUET",
     boards: "CBSE, ICSE, Raj Board",
     link: "/courses/commerce",

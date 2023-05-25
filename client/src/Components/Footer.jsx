@@ -30,7 +30,7 @@ const Footer = () => {
         <div></div>
         {data.map((item, index) => {
           return (
-            <div>
+            <div key={index}>
               <h4 key={index}>{item.title}</h4>
 
               {item.list.map((listItem, index) => {

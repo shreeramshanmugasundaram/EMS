@@ -107,6 +107,9 @@
   padding: 1rem;
 }
 @media only screen and (max-width: 880px) {
+  .Intro button {
+    margin-bottom: 2rem;
+  }
   .Intro h2 {
     width: 100%;
     font-size: 24px;

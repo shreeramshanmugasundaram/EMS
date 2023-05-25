@@ -19,7 +19,7 @@ const Hero = () => {
             Inner Genius
           </h2>
           <p className="ft-h3">
-            Get the Best Coaching for Class 8th to 12th, NEET and CUET Exams at
+            Get the Best Coaching for Class 5th to 12th, NEET and CUET Exams at
             Our Leading Institute in Jaipur. Join us today and experience the
             power of our comprehensive coaching solutions - where knowledge
             meets success!
@@ -31,7 +31,9 @@ const Hero = () => {
             <button
               className="btn-2"
               onClick={() => {
-                navigate("/aboutus");
+                window.location.assign(
+                  "https://www.youtube.com/embed/GZyd5mVczdA"
+                );
               }}
             >
               <img src={play} alt="" /> Know More

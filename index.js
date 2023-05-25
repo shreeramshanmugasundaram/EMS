@@ -20,7 +20,7 @@ const __dirname = path.dirname(__filename);
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 const DB = process.env.DB;
 
 app.post("/getresutlstudents", getResultStudents);

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import "./About.css";
 import "../Components/Hero.css";
@@ -19,11 +20,23 @@ const mentors = [
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <title>About us | EMS Academy</title>
+        <meta
+          name="description"
+          content=" EMS Academy is a well-known coaching institute that provides quality education in Science, Commerce, CUET and 10th and 12th boards. Visit us today to know more."
+        />
+        <meta
+          name="keywords"
+          content="Coaching Institute, Pratap Nagar, Jaipur, Exam Prep, 6th to 12th grade, Commerce, Science, CUET Preparation, NEET preparation. Boards preparation."
+        />
+        <meta name="canonical" content="/about" />
+      </Helmet>
       <div className="Intro">
         <div className="center-div">
           <h2 style={{ width: "75%" }}>
-            Transform Your Dreams, discover Your Strengths and Unleash Your
-            Inner Genius
+            Get access to notes, recorded lectures, Q&A box and many other
+            resources. Download the app now.
           </h2>
           <button
             className="btn-1"
@@ -116,6 +129,7 @@ const About = () => {
               <div key={index}>
                 <img src={mentor.img} alt={mentor.name} />
                 <h3>{mentor.name}</h3>
+                <h3>( Co-Founder & Director)</h3>
                 <p>{mentor.des}</p>
               </div>
             );

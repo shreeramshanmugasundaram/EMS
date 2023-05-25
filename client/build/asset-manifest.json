@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b1159c5.css",
-    "main.js": "/static/js/main.bc78ea33.js",
+    "main.css": "/static/css/main.79e6206d.css",
+    "main.js": "/static/js/main.251d71a7.js",
+    "static/media/logo.png": "/static/media/logo.ba670427ac3441ed6c5b.png",
     "static/media/01.svg": "/static/media/01.2a3ee85c0363ed606c6ea793e57e0e32.svg",
     "static/media/whyjoinus.svg": "/static/media/whyjoinus.19f51e5625af37e927ed3afece226591.svg",
     "static/media/education.png": "/static/media/education.ed24c3c47e51ac780118.png",
     "static/media/bgHero1.svg": "/static/media/bgHero1.f096473a7e9b376b04fc.svg",
     "static/media/join.svg": "/static/media/join.8923854713675f4b8ca6bb94bde5c3c5.svg",
+    "static/media/popup.jpeg": "/static/media/popup.f10fc985a44a178067bc.jpeg",
     "static/media/contactus.webp": "/static/media/contactus.59cd8e329c7c5f53e8f1.webp",
     "static/media/money.svg": "/static/media/money.4f482e556c9be4d882de13182220478a.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -16,9 +18,9 @@
     "static/media/instagram.svg": "/static/media/instagram.a99a09f124884b8bc8f8a0387ecb81e6.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/person.svg": "/static/media/person.2a59870ad13f2b992ef64b7ad6aeea04.svg",
+    "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.6a7d3bd33b90a2ef083adce91926a73c.svg",
     "static/media/play.svg": "/static/media/play.d1744c792d39dbe28ee0b38996e32090.svg",
-    "index.html": "/index.html",
     "static/media/clock.svg": "/static/media/clock.86f7421f923fcd1cb9ce66f40159049d.svg",
     "static/media/map-marker.svg": "/static/media/map-marker.7a2eb87fe2bfc5a25c205c7642009b1d.svg",
     "static/media/phone.svg": "/static/media/phone.baf4cd1a69827e31f25b421f6312dec7.svg",
@@ -28,11 +30,12 @@
     "static/media/email.svg": "/static/media/email.1176463d3c42bba6cd8a43c2e9a99603.svg",
     "static/media/bgHero.svg": "/static/media/bgHero.a97b01284ffe19b37b7334b48a3035a8.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.b866a0a5a85f8019b2accd7bd6f419ce.svg",
-    "main.7b1159c5.css.map": "/static/css/main.7b1159c5.css.map",
-    "main.bc78ea33.js.map": "/static/js/main.bc78ea33.js.map"
+    "static/media/close.svg": "/static/media/close.e347af1f9723d68705c420be0f7ccacd.svg",
+    "main.79e6206d.css.map": "/static/css/main.79e6206d.css.map",
+    "main.251d71a7.js.map": "/static/js/main.251d71a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b1159c5.css",
-    "static/js/main.bc78ea33.js"
+    "static/css/main.79e6206d.css",
+    "static/js/main.251d71a7.js"
   ]
 }

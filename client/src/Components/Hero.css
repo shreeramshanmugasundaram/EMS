@@ -96,4 +96,11 @@ img[alt="bgHero"] {
   .HeroInfo {
     display: none;
   }
+  img[alt="bgHero"] {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    z-index: -44;
+    overflow: hidden;
+  }
 }

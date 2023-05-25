@@ -1,0 +1,37 @@
+.PopupWapper {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(6, 102, 171, 0.467);
+  z-index: 99999;
+  position: fixed;
+}
+.Popup {
+  width: min(45rem, 95%);
+  position: relative;
+  padding: 1rem;
+  /* background: #75b9ea; */
+  border-radius: 18px;
+  text-align: center;
+}
+.Popup img[alt="closelettericon"] {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.Popup img[alt="popup"] {
+  height: 80vh;
+  width: 100%;
+}
+@media only screen and (max-width: 880px) {
+  img[alt="closelettericon"] {
+    width: 16px;
+  }
+  .Popup {
+    padding: 4rem 2rem;
+  }
+}

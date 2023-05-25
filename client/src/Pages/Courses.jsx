@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import "./Courses.css";
 import bgHero from "../Images/bgHero.svg";
 import courseimg from "../Images/courses/01.svg";
@@ -39,6 +39,13 @@ const Courses = ({ course }) => {
   });
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{course.Mtitle}</title>
+        <link rel="canonical" href={course.Mcar} />
+        <link rel="keyword" href={course.Mkeyword} />
+        <link rel="description" href={course.Mdes} />
+      </Helmet>
       <img src={bgHero} alt="bgHero" />
       <div className="center-div">
         <h2 className="title-1" style={{ textAlign: "left" }}>
@@ -146,26 +153,9 @@ const Courses = ({ course }) => {
 
         <div className="whyjoinus">
           <ol>
-            <li>
-              This program is designed for the student of Class XI and Class XII
-              Commerce, which aim at laying down Fundamentals of Accounts and
-              Economics. Besides making CBSE preparation more Conceptual and
-              Comprehensive.
-            </li>
-            <li>
-              This is accomplished through motivating the student in regards to
-              learning tools, mastering concepts, thinking critically, and
-              solving problems within the specified time limit.
-            </li>
-            <li>
-              This program also prepares students for CPT and CLAT entrance
-              examination.
-            </li>
-            <li>
-              Regular and surprise tests are conducted to encourage students to
-              be prepared and dedicated towards their studies at all times. It
-              also help in judging the performance level of the students
-            </li>
+            {course?.why.map((data, index) => {
+              return <li key={index}>{data}</li>;
+            })}
           </ol>
           <img src={whyjoinus} alt="whyjoinus"></img>
         </div>
