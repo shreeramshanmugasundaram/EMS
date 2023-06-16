@@ -16,6 +16,7 @@ import {
   neet,
   cuet,
 } from "./data/pre-nurture";
+import AboutApp from "./Pages/AboutApp";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
       <Routes>
         <Route path="*" element={<Main />}></Route>
         <Route path="/results" element={<Result />}></Route>
-        <Route path="/aboutus" element={<About />}></Route>
+        <Route path="/aboutus" element={<AboutApp />}></Route>
+        <Route path="/aboutapp" element={<AboutApp />}></Route>
+
         <Route path="/contactus" element={<Contact />}></Route>
         <Route
           path="/courses/Pre-Nurture"

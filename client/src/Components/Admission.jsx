@@ -31,13 +31,13 @@ const data = [
     title: "NEET",
     std: "NEET XI & XII",
     boards: "CBSE, ICSE, Raj Board",
-    link: "/courses/commerce",
+    link: "/courses/neet",
   },
   {
     title: "CUET",
     std: "CUET",
     boards: "CBSE, ICSE, Raj Board",
-    link: "/courses/commerce",
+    link: "/courses/cuet",
   },
 ];
 
