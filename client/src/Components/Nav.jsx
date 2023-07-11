@@ -39,6 +39,7 @@ const Nav = () => {
             <li onClick={() => navigate("/courses/Pre-Nurture")}>Courses</li>
             <li onClick={() => navigate("/results")}>Result</li>
             <li onClick={() => navigate("/aboutus")}>About Us</li>
+            <li onClick={() => navigate("/aboutapp")}>App</li>
             <li onClick={() => navigate("/contactus")}>Contact</li>
             <li>
               <a href="https://emslibrary.com">EMS Library</a>

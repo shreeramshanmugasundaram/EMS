@@ -32,7 +32,7 @@ const About = () => {
         />
         <meta name="canonical" content="/about" />
       </Helmet>
-      <div className="Intro">
+      {/* <div className="Intro">
         <div className="center-div">
           <h2 style={{ width: "75%" }}>
             Get access to notes, recorded lectures, Q&A box and many other
@@ -69,7 +69,7 @@ const About = () => {
             Desktop Portal
           </button>
         </div>
-      </div>
+      </div> */}
 
       <div className="AboutWrapper">
         <div className="About center-div">

@@ -7,7 +7,7 @@ import Result from "./Pages/Result";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Courses from "./Pages/Courses";
-
+import AboutApp from "./Pages/AboutApp"
 import {
   preNurture,
   nurture,
@@ -25,6 +25,7 @@ function App() {
         <Route path="*" element={<Main />}></Route>
         <Route path="/results" element={<Result />}></Route>
         <Route path="/aboutus" element={<About />}></Route>
+        <Route path="/aboutapp" element={<AboutApp />}></Route>
         <Route path="/contactus" element={<Contact />}></Route>
         <Route
           path="/courses/Pre-Nurture"
