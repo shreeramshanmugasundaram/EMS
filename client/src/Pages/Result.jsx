@@ -8,7 +8,7 @@ import { getResultYears } from "../action/getResultYears";
 
 const Result = () => {
   const [years, setYears] = useState([]);
-  const [lookingResult, setLookingResult] = useState("2023");
+  const [lookingResult, setLookingResult] = useState("2019");
   const [studentList, setStudentList] = useState([]);
 
   useEffect(() => {
